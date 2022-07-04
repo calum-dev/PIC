@@ -1,0 +1,130 @@
+﻿GROUP,SUB_GROUP,EXPENDITURE_CLASS,CONSUMPTION
+FOOD AND NON-ALCOHOLIC BEVERAGES,,,1
+FOOD AND NON-ALCOHOLIC BEVERAGES,Bread and cereal products,,2
+FOOD AND NON-ALCOHOLIC BEVERAGES,Bread and cereal products,Bread,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Bread and cereal products,Cakes and biscuits,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Bread and cereal products,Breakfast cereals,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Bread and cereal products,Other cereal products,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meat and seafoods,,2
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meat and seafoods,Beef and veal,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meat and seafoods,Pork,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meat and seafoods,Lamb and goat,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meat and seafoods,Poultry,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meat and seafoods,Other meats,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meat and seafoods,Fish and other seafood,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Dairy and related products,,2
+FOOD AND NON-ALCOHOLIC BEVERAGES,Dairy and related products,Milk,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Dairy and related products,Cheese,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Dairy and related products,Ice cream and other dairy products,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Fruit and vegetables,,2
+FOOD AND NON-ALCOHOLIC BEVERAGES,Fruit and vegetables,Fruit,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Fruit and vegetables,Vegetables,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Food products n.e.c.,,2
+FOOD AND NON-ALCOHOLIC BEVERAGES,Food products n.e.c.,Eggs,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Food products n.e.c.,"Jams, honey and spreads",3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Food products n.e.c.,Food additives and condiments,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Food products n.e.c.,Oils and fats,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Food products n.e.c.,Snacks and confectionery,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Food products n.e.c.,Other food products n.e.c.,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Non-alcoholic beverages,,2
+FOOD AND NON-ALCOHOLIC BEVERAGES,Non-alcoholic beverages,"Coffee, tea and cocoa",3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Non-alcoholic beverages,"Waters, soft drinks and juices",3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meals out and take away foods,,2
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meals out and take away foods,Restaurant meals,3
+FOOD AND NON-ALCOHOLIC BEVERAGES,Meals out and take away foods,Take away and fast foods,3
+ALCOHOL AND TOBACCO,,,1
+ALCOHOL AND TOBACCO,Alcoholic beverages,,2
+ALCOHOL AND TOBACCO,Alcoholic beverages,Spirits,3
+ALCOHOL AND TOBACCO,Alcoholic beverages,Wine,3
+ALCOHOL AND TOBACCO,Alcoholic beverages,Beer,3
+ALCOHOL AND TOBACCO,Tobacco,,2
+ALCOHOL AND TOBACCO,Tobacco,Tobacco,3
+CLOTHING AND FOOTWEAR,,,1
+CLOTHING AND FOOTWEAR,Garments,,2
+CLOTHING AND FOOTWEAR,Garments,Garments for men,3
+CLOTHING AND FOOTWEAR,Garments,Garments for women,3
+CLOTHING AND FOOTWEAR,Garments,Garments for infants and children,3
+CLOTHING AND FOOTWEAR,Footwear,,2
+CLOTHING AND FOOTWEAR,Footwear,Footwear for men,3
+CLOTHING AND FOOTWEAR,Footwear,Footwear for women,3
+CLOTHING AND FOOTWEAR,Footwear,Footwear for infants and children,3
+CLOTHING AND FOOTWEAR,Accessories and clothing services,,2
+CLOTHING AND FOOTWEAR,Accessories and clothing services,Accessories,3
+CLOTHING AND FOOTWEAR,Accessories and clothing services,"Cleaning, repair and hire of clothing and footwear",3
+HOUSING,,,1
+HOUSING,Rents,,2
+HOUSING,Rents,Rents,3
+HOUSING,New dwelling purchase by owner-occupiers,,2
+HOUSING,New dwelling purchase by owner-occupiers,New dwelling purchase by owner-occupiers,3
+HOUSING,Other housing,,2
+HOUSING,Other housing,Maintenance and repair of the dwelling,3
+HOUSING,Other housing,Property rates and charges,3
+HOUSING,Utilities,,2
+HOUSING,Utilities,Water and sewerage,3
+HOUSING,Utilities,Electricity,3
+HOUSING,Utilities,Gas and other household fuels,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",,,1
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Furniture and furnishings,,2
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Furniture and furnishings,Furniture,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Furniture and furnishings,Carpets and other floor coverings,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Household textiles,,2
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Household textiles,Household textiles,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Household appliances, utensils and tools",,2
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Household appliances, utensils and tools",Major household appliances,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Household appliances, utensils and tools",Small electric household appliances,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Household appliances, utensils and tools","Glassware, tableware and household utensils",3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Household appliances, utensils and tools",Tools and equipment for house and garden,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Non-durable household products,,2
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Non-durable household products,Cleaning and maintenance products,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Non-durable household products,Personal care products,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Non-durable household products,Other non-durable household products,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Domestic and household services,,2
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Domestic and household services,Child care,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Domestic and household services,Hairdressing and personal grooming services,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES",Domestic and household services,Other household services,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Medical products, appliances and equipment",,2
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Medical products, appliances and equipment",Pharmaceutical products,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Medical products, appliances and equipment",Therapeutic appliances and equipment,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Medical, dental and hospital services",Medical and hospital services,3
+"FURNISHINGS, HOUSEHOLD EQUIPMENT AND SERVICES","Medical, dental and hospital services",Dental services,3
+TRANSPORT,,,1
+TRANSPORT,Private motoring,,2
+TRANSPORT,Private motoring,Motor vehicles,3
+TRANSPORT,Private motoring,Spare parts and accessories for motor vehicles,3
+TRANSPORT,Private motoring,Automotive fuel,3
+TRANSPORT,Private motoring,Maintenance and repair of motor vehicles,3
+TRANSPORT,Private motoring,Other services in respect of motor vehicles,3
+TRANSPORT,Urban transport fares,,2
+TRANSPORT,Urban transport fares,Urban transport fares,3
+COMMUNICATION,,,1
+COMMUNICATION,Communication,,2
+COMMUNICATION,Communication,Postal services,3
+COMMUNICATION,Communication,Telecommunication equipment and services,3
+RECREATION AND CULTURE,,,1
+RECREATION AND CULTURE,"Audio, visual and computing equipment and services",,2
+RECREATION AND CULTURE,"Audio, visual and computing equipment and services","Audio, visual and computing equipment",3
+RECREATION AND CULTURE,"Audio, visual and computing equipment and services","Audio, visual and computing media and services",3
+RECREATION AND CULTURE,"Newspapers, books and stationery",,2
+RECREATION AND CULTURE,"Newspapers, books and stationery",Books,3
+RECREATION AND CULTURE,"Newspapers, books and stationery","Newspapers, magazines and stationery",3
+RECREATION AND CULTURE,Holiday travel and accommodation,,2
+RECREATION AND CULTURE,Holiday travel and accommodation,Domestic holiday travel and accommodation,3
+RECREATION AND CULTURE,Holiday travel and accommodation,International holiday travel and accommodation,3
+RECREATION AND CULTURE,"Other recreation, sport and culture",,2
+RECREATION AND CULTURE,"Other recreation, sport and culture","Equipment for sports, camping and open-air recreation",3
+RECREATION AND CULTURE,"Other recreation, sport and culture","Games, toys and hobbies",3
+RECREATION AND CULTURE,"Other recreation, sport and culture",Pets and related products,3
+RECREATION AND CULTURE,"Other recreation, sport and culture",Veterinary and other services for pets,3
+RECREATION AND CULTURE,"Other recreation, sport and culture",Sports participation,3
+RECREATION AND CULTURE,"Other recreation, sport and culture","Other recreational, sporting and cultural services",3
+EDUCATION,,,1
+EDUCATION,Education,,2
+EDUCATION,Education,Preschool and primary education,3
+EDUCATION,Education,Secondary education,3
+EDUCATION,Education,Tertiary education,3
+INSURANCE AND FINANCIAL SERVICES,,,1
+INSURANCE AND FINANCIAL SERVICES,Insurance,,2
+INSURANCE AND FINANCIAL SERVICES,Insurance,Insurance,3
+INSURANCE AND FINANCIAL SERVICES,Financial services,,2
+INSURANCE AND FINANCIAL SERVICES,Financial services,Deposit and loan facilities (direct charges),3
+INSURANCE AND FINANCIAL SERVICES,Financial services,Other financial services,3
