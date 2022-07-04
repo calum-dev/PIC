@@ -5,9 +5,9 @@ account: absbeta
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6442410
-bundleId: 6069269
+bundleId: 6069321
 url: https://absbeta.shinyapps.io/Personal_Inflation_Calculator_V2/
-when: 1656975195.93111
-lastSyncTime: 1656975195.93111
+when: 1656977461.86226
+lastSyncTime: 1656977461.86226
 asMultiple: FALSE
 asStatic: FALSE

@@ -221,7 +221,7 @@ server <- function(input, output) {
           rLevel ++;
         }
         console.log('row level: ' + rLevel + ' group level: ' + level);
-        if (level == rLevel){
+        if (rLevel = level + 1){
           consumption = consumption + groupData[i][4]
         }
       }
