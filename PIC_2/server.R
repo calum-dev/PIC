@@ -212,7 +212,7 @@ server <- function(input, output) {
       for (let i = 0; i < groupData.length; i++ ){
         let rLevel = 0;
         if (groupData[i][0].length > 0){
-          //rLevel ++;
+          //rLevel ++; //skip because top level starts at 0
         }
         if (groupData[i][1].length > 0){
           rLevel ++;
@@ -221,22 +221,19 @@ server <- function(input, output) {
           rLevel ++;
         }
         console.log('row level: ' + rLevel + ' group level: ' + level);
-        if (rLevel = level + 1){
+        if (rLevel == level + 1){
+          console.log('plus ' + groupData[i][4]);
           consumption = consumption + groupData[i][4]
         }
       }
       
-      console.log(consumption)
+      console.log('consumption: ' + consumption);
       
-      
-      //rows.data()[4]=consumption;
-
      // add to group Parent array
      groupParent[level] = group;
 
      // new string to build up
      var groupAll = '';
-
 
      for (var i = 0; i < level; i++) {
          groupAll += groupParent[i];
@@ -248,7 +245,6 @@ server <- function(input, output) {
      }
 
      groupAll += group;
-
 
      if ((typeof(collapsedGroups[groupAll]) == 'undefined') || (collapsedGroups[groupAll] === null)) {
          collapsedGroups[groupAll] = true; 
@@ -304,8 +300,6 @@ server <- function(input, output) {
           .prop('disabled', true)
       }
       
-         
-         
       return parentRow
     }
     "
