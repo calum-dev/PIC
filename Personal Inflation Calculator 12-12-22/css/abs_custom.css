@@ -1,0 +1,318 @@
+.controls {
+    display: flex;
+}
+
+.select {
+    width: 100%;
+    font-size: 1rem;
+    border: 3px solid #222;
+    border-radius: 6px;
+    color: #222;
+    padding: .5rem;
+    line-height: 1.5;
+}
+
+.controls-btn-wrapper {
+    width: 100%;
+    margin-left: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+}
+
+@media only screen and (max-width: 1120px) {
+    .button {
+        padding: 0.5rem;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls-btn-wrapper {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+}
+
+.controls .button {
+    min-width: 20%;
+    margin: 0;
+}
+
+.controls label {
+    min-width: 20%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+.controls label:focus-within {
+    outline: 3px solid #9263de;
+    outline-offset: 2px;
+}
+.controls input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#content_table {
+    overflow-x: auto;
+    padding-top: 1em;
+}
+
+#content_table table {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#content_table input {
+    margin: 5px 0;
+    border: 2px solid #444;
+    border-radius: 3px;
+    padding: .25rem;
+    line-height: 1;
+    color: #222;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+td {
+    border-bottom: none !important;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+td.expand {
+    position: relative;
+    min-width: 2rem;
+    cursor: pointer;
+}
+td.expand:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: .5em;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #326297;
+    font-family: ABS-Icons!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\E900";
+    font-size: .85em;
+    -webkit-transform: translateY(-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: -webkit-transform .15s ease;
+    transition: -webkit-transform .15s ease;
+    transition: transform .15s ease;
+    transition: transform .15s ease,-webkit-transform .15s ease;
+}
+tr[show] td.expand:before {
+    -webkit-transform: translateY(-50%) rotate(-180deg);
+    transform: translate(-50%, -50%) rotate(-180deg);
+}
+
+td.indent {
+    padding-left: 40px;
+}
+
+td.basket {
+    width: 256px;
+}
+
+td.basket span {
+    display: block;
+    width: 0;
+    height: 20px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+td.basket span:first-child {
+    background-color: #3d9dd1;
+}
+td.basket span:last-child {
+    background-color: #134a71;
+}
+td.basket span {
+    position: relative;
+}
+td.basket span div {
+    position: absolute;
+    padding: 8px;
+    bottom: 135%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+    z-index: 1;
+    visibility: hidden;
+    white-space: nowrap;
+    -webkit-box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 14%), 0 2px 4px -1px rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 14%), 0 2px 4px -1px rgb(0 0 0 / 10%);
+}
+td.basket span div::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -42%) rotate(45deg);
+    background-color: #fff;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    z-index: 1;
+}
+td.basket span:hover div, td.basket span:focus-within div {
+    visibility: visible;
+}
+
+tfoot tr {
+    border-bottom: none;
+}
+
+.table_legend div {
+    display: inline-block;
+    width: 30px;
+    height: 0.7rem;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.scale {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+}
+.scale > div {
+    position: absolute;
+    top: -.25rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.scale > div:nth-child(1) {
+    transform: translateX(-50%);
+}
+.scale > div:nth-child(2) {
+    left: 25%;
+    transform: translateX(-50%);
+}
+.scale > div:nth-child(3) {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.scale > div:nth-child(4) {
+    left: 75%;
+    transform: translateX(-50%);
+}
+.scale > div:nth-child(5) {
+    right: 0;
+    transform: translateX(50%);
+}
+.scale > div > div{
+    background-color: #ddd;
+    width: 1px;
+    height: 1rem;
+}
+.scale span { 
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.field__item {
+    overflow: hidden;
+    position: relative;
+    padding: .5rem;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 14%), 0 2px 4px -1px rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 14%), 0 2px 4px -1px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.field__item .chart-tabs {
+    top: unset;
+}
+
+.field__item .abs-chart-table, .field__item .chart-table-group {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.indicator {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.group_tooltip::after{
+    content: "";
+    position: absolute;
+    left: 12px;
+    top: 100%;
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    border-right: 2px solid #326297;
+    border-bottom: 2px solid #326297;
+    transform: translate(-50%, -35%) rotate(45deg);
+}
+
+.group_tooltip {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 400px;
+    word-wrap: normal;
+    padding: 1rem;
+    border-radius: 5px;
+    border-color: #326297;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffffff;
+    z-index: 100;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.loading {
+    margin: 40px auto;
+    border: 16px solid #f2f5f8;
+    border-radius: 50%;
+    border-top: 16px solid #326297;
+    width: 96px;
+    height: 96px;
+}
+.loading[show] {
+    animation: spin 2s linear infinite;
+}
