@@ -83,7 +83,7 @@ function buildGraph(sName, xData, tID) {
             tickInterval: 1
         },
         xAxis: {
-            tickInterval: 12,
+            tickInterval: 4,
             title: {
                 style: {
                     color: "#222222",
