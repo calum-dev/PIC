@@ -69,7 +69,7 @@ managerSource = {
     {
       "id": "20001",
       "name": "Food and non-alcoholic beverages",
-      "description": "Includes expenditure on eggs, spreads, condiments, oils, snacks and confectionary, baby food and prepared meals. �",
+      "description": "Includes expenditure on eggs, spreads, condiments, oils, snacks and confectionary, baby food and prepared meals.",
       "children": [
         {
           "id": "30002",
@@ -365,7 +365,7 @@ managerSource = {
         {
           "id": "131278",
           "name": "Mortgage interest charges",
-          "description": "Includes expenditure on the interest component of mortgage repayments only, and excludes the principal. �",
+          "description": "Includes expenditure on the interest component of mortgage repayments only, and excludes the principal.",
           "children": [],
           "weights": [
             "1",
@@ -780,26 +780,26 @@ managerSource = {
     {
       "id": "115493",
       "name": "Education",
-      "description": "Includes expenditure on primary, secondary and tertiary education and preschool services. Child care is included in �Domestic and household services�.",
+      "description": "Includes expenditure on primary, secondary and tertiary education and preschool services. Child care is included in 'Domestic and household services'.",
       "children": [
-        {
-          "id": "40106",
-          "name": "Education",
-          "description": "",
-          "children": [],
-          "weights": [
-            "4.34",
-            "4.81",
-            "4.45",
-            "3.72",
-            "4.45",
-            "3.28",
-            "3.02",
-            "4.08",
-            "4.43"
-          ],
-          "period": "month"
-        }
+        // {
+        //   "id": "40106",
+        //   "name": "Education",
+        //   "description": "",
+        //   "children": [],
+        //   "weights": [
+        //     "4.34",
+        //     "4.81",
+        //     "4.45",
+        //     "3.72",
+        //     "4.45",
+        //     "3.28",
+        //     "3.02",
+        //     "4.08",
+        //     "4.43"
+        //   ],
+        //   "period": "month"
+        // }
       ],
       "weights": [
         "4.34",
@@ -962,9 +962,9 @@ function initialiseTable() {
             for (let child of group.children) {
                 managerConsumption.push([0, 0]);
                 if(child.description.length > 0){
-                    tbody.append(`<tr class="hidden ${(odd) ? 'odd' : 'even'} child"><td></td><td class="indent"><span data-tooltip="${child.description}" tabindex="0">${child.name}</span></td><td class="text-align-right"></td><td><div class="input-wrapper"><div class="prefix">$</div><input type="number" placeholder="0" min="0" onblur="inputUpdated(this)" /><div class="suffix">/${group.period}</div></td><td class="basket"><span tabindex="0"><div></div></span><span tabindex="0"><div></div></span></td></tr>`);
+                    tbody.append(`<tr class="hidden ${(odd) ? 'odd' : 'even'} child"><td></td><td class="indent"><span data-tooltip="${child.description}" tabindex="0">${child.name}</span></td><td class="text-align-right"></td><td><div class="input-wrapper"><div class="prefix">$</div><input type="number" placeholder="0" min="0" onblur="inputUpdated(this)" /><div class="suffix">/${child.period}</div></td><td class="basket"><span tabindex="0"><div></div></span><span tabindex="0"><div></div></span></td></tr>`);
                 } else {
-                    tbody.append(`<tr class="hidden ${(odd) ? 'odd' : 'even'} child"><td></td><td class="indent"><span tabindex="0">${child.name}</span></td><td class="text-align-right"></td><td><div class="input-wrapper"><div class="prefix">$</div><input type="number" placeholder="0" min="0" onblur="inputUpdated(this)" /><div class="suffix">/${group.period}</div></td><td class="basket"><span tabindex="0"><div></div></span><span tabindex="0"><div></div></span></td></tr>`);
+                    tbody.append(`<tr class="hidden ${(odd) ? 'odd' : 'even'} child"><td></td><td class="indent"><span tabindex="0">${child.name}</span></td><td class="text-align-right"></td><td><div class="input-wrapper"><div class="prefix">$</div><input type="number" placeholder="0" min="0" onblur="inputUpdated(this)" /><div class="suffix">/${child.period}</div></td><td class="basket"><span tabindex="0"><div></div></span><span tabindex="0"><div></div></span></td></tr>`);
 
                 }
             }
@@ -1049,10 +1049,10 @@ function buildSelect() {
             inflationRates.push(group.values[regionIndex][group.values[regionIndex].length - 1].toFixed(1));
             managerConsumption[index][1] = parseFloat(group.weights[weightIndex]);
             index++;
-            console.log(group.values, group.children)
+            //console.log(group.values, group.children)
             //if (typeof group.children !== 'undefined' && group.children.length > 0 ){
                 for (let subGroup of group.children) {
-                  console.log(subGroup)
+                  //console.log(subGroup)
                     inflationRates.push(subGroup.values[regionIndex][subGroup.values[regionIndex].length - 1].toFixed(1));
                     managerConsumption[index][1] = parseFloat(subGroup.weights[weightIndex]);
                     index++;
@@ -1240,7 +1240,7 @@ function appendData(groups, series) {
   //console.log(groups, series)
     for(let i = 0; i < groups.length; i++) {
         if (groups[i].parent && groups[i].parent != '10001' || groups[i].id == '131278') {
-          console.log("child", groups[i])
+          //console.log("child", groups[i])
             matchChild(groups[i], i, series);
         } else {
             matchGroup(groups[i], i, series);
@@ -1259,7 +1259,7 @@ function matchGroup(group, index, series) {
 function matchChild(group, index, series) {
   //console.log("match child" ,group.id)
     for (let i = 0; i < managerSource.groups.length; i++) {
-      console.log(i,managerSource.groups.length)
+      //console.log(i,managerSource.groups.length)
        if (group.parent != managerSource.groups[i].id && group.id != '131278') { continue; }
        //console.log("match child 2" ,group.id)
         for (let j = 0; j < managerSource.groups[i].children.length; j++) {
@@ -1303,7 +1303,7 @@ function appendValues(dest, sourceIndex, series) {
 function inputUpdated(input) {
     // Tally up subgroups at group level
     if (input != null) {
-        console.log(input);
+        //console.log(input);
         var tr = $(input).closest('tr');
         //if its a child row, find the first child within the group and start tallying
         if (tr.hasClass('child')) {
@@ -1314,8 +1314,9 @@ function inputUpdated(input) {
             var subGroupsTotal = 0;
             while (tr.hasClass('child')) {
                 var i = tr.find('input');
-                var iVal = tr.find
-                subGroupsTotal += (i.val()) ? parseFloat(i.val()) : 0;
+                var suffix = tr.find('div.suffix').text().substr(1);
+                console.log("suffix",suffix);
+                subGroupsTotal += (i.val()) ? Math.round(parseFloat(i.val()) * getPeriodMultipler(suffix) * 10) / 10 : 0;
                 tr = tr.next();
             }
 
@@ -1391,7 +1392,7 @@ function calculateScale() {
     for (consumption of managerConsumption) {
         scaledValues.push([(consumption[0] / scaleTopEnd) * 100, (consumption[1] / scaleTopEnd ) * 100]);
     }
-    console.log("scaled",scaledValues);
+    //console.log("scaled",scaledValues);
     //updateTableColumn(4, scaledValues, true);
     updateTableColumn(4, scaledValues, false);
     calculatePersonalRate();
@@ -1411,7 +1412,7 @@ function calculatePersonalRate() {
         for (let j = 0; j < managerSource.groups.length - 1; j++) {
             
             let hasSubgroupData = false;
-            let groupRate = managerSource.groups[j].values[selectRegionIndex][i] * getPeriodMultipler(managerSource.groups[j]) * (managerConsumption[index][0] / 100);
+            let groupRate = managerSource.groups[j].values[selectRegionIndex][i] * getPeriodMultipler(managerSource.groups[j].period) * (managerConsumption[index][0] / 100);
             //console.log("group index ", index, managerConsumption[index][0]);
             // check for sub groups
             if(managerSource.groups[j].children.length > 0){
@@ -1421,7 +1422,7 @@ function calculatePersonalRate() {
                     //console.log("subgroup index ", index,managerConsumption[index][0]);
                     if (managerConsumption[index][0] > 0){
                         hasSubgroupData = true;
-                        let subgroupRate = managerSource.groups[j].children[k].values[selectRegionIndex][i] * getPeriodMultipler(managerSource.groups[j].children[k]) * (managerConsumption[index][0] / 100);
+                        let subgroupRate = managerSource.groups[j].children[k].values[selectRegionIndex][i] * getPeriodMultipler(managerSource.groups[j].children[k].period) * (managerConsumption[index][0] / 100);
                         //console.log("has subgroup data", managerConsumption[index][0])
                         personalQuarterRate += subgroupRate;
                         
@@ -1441,21 +1442,21 @@ function calculatePersonalRate() {
         personalY.push(personalQuarterRate);
         consumerY.push(managerSource.groups[managerSource.groups.length - 1].values[selectRegionIndex][i]);
     }
-    console.log(personalY, consumerY);
+    //console.log(personalY, consumerY);
     // Display last data point (most recent)
     populateIndicators(personalY[[personalY.length - 1]], consumerY[consumerY.length - 1]);
     updateGraph(managerSource.regions[selectRegionIndex].name, personalY, consumerY);
 }
 
-function getPeriodMultipler (group) {
+function getPeriodMultipler (period) {
   let periodMultipler = 0;
-  if (group.period === "month"){
+  if (period === "month"){
     periodMultipler = 1;
-  } else if (group.period === "quarter"){
+  } else if (period === "quarter"){
     periodMultipler = 1 / 3;
-  } else if (group.period === "year"){
+  } else if (period === "year"){
     periodMultipler = 1 / 12;
   } 
-  console.log(group.period)
+  console.log(period, periodMultipler)
   return periodMultipler
 }
