@@ -1257,18 +1257,19 @@ function matchGroup(group, index, series) {
 }
 
 function matchChild(group, index, series) {
-  console.log("match child" ,group.id)
+  //console.log("match child" ,group.id)
     for (let i = 0; i < managerSource.groups.length; i++) {
+      console.log(i,managerSource.groups.length)
        if (group.parent != managerSource.groups[i].id && group.id != '131278') { continue; }
-       console.log("match child 2" ,group.id)
+       //console.log("match child 2" ,group.id)
         for (let j = 0; j < managerSource.groups[i].children.length; j++) {
-          console.log(group.id, managerSource.groups[i].children[j].id)
+          //console.log("match child 3" ,group.id)
             if (group.id != managerSource.groups[i].children[j].id) { continue; }
-            console.log("match child 3" ,group.parent)
+            //console.log("match child 4" ,group.parent)
             appendValues(managerSource.groups[i].children[j], index, series);
             break;
         }
-        break;
+        continue;
     }
 }
 
