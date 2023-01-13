@@ -1,0 +1,48 @@
+ID,Group,Sub-group,Definition,Consumption period,Sydney,Melbourne,Brisbane,Adelaide,Perth,Hobart,Darwin,Canberra,Weighted average of eight capital cities
+20001,Food and non-alcoholic beverages,,"Includes expenditure on eggs, spreads, condiments, oils, snacks and confectionary, baby food and prepared meals.  ",Month,17.22,17.07,16.83,17.51,17.64,17.41,18.53,17.57,17.18
+30002,,Bread and cereal products,,Month,1.33,1.43,1.44,1.57,1.52,1.63,1.25,1.44,1.42
+30003,,Meat and seafoods,,Month,2.22,2.28,2.39,2.48,2.74,2.37,2.89,2.36,2.33
+30001,,Dairy and related products,,Month,0.88,1.01,1.13,1.21,1.11,1.23,1.17,0.99,1.01
+114120,,Fruit and vegetables,,Month,2.38,2.31,2.41,2.38,2.44,2.31,2.86,2.54,2.37
+131179,,Food products n.e.c.,,Month,1.89,2.1,2.15,2.31,2.47,2.44,2.03,2.01,2.09
+131180,,Non-alcoholic beverages,,Month,1.06,1.05,1.27,1.21,1.35,1.31,1.48,1.11,1.15
+30007,,Meals out and take away foods,,Month,7.46,6.89,6.04,6.35,6.01,6.12,6.85,7.12,6.81
+20006,Alcohol and tobacco,,"Includes expenditure on all types of beverages containing alcohol such as beer, wine and spirits; and all products containing tobacco such as cigarettes, cigars and cigarette tobacco.",Month,7.19,8.1,8.71,8.4,7.67,9.95,11.76,6.33,7.87
+30026,,Alcoholic beverages,,Month,4.83,5.16,5.48,5.09,5.23,5.75,7.67,4.63,5.12
+30027,,Tobacco,,Month,2.36,2.94,3.23,3.31,2.44,4.2,4.09,1.7,2.75
+20002,Clothing and footwear,,"Includes expenditure on clothing, footwear, accessories such as watches and jewellery and services such as dry cleaning and shoe repair services.",Month,3.42,3.38,3.57,3.21,3.2,3.27,2.68,3.24,3.37
+131181,,Garments,,Month,1.98,1.99,2.02,2.03,1.95,2.09,1.77,1.91,1.98
+30012,,Footwear,,Month,0.46,0.49,0.49,0.51,0.47,0.65,0.43,0.65,0.48
+97556,,Accessories and clothing services,,Month,0.98,0.9,1.06,0.67,0.78,0.53,0.48,0.68,0.91
+20003,Housing,,"Includes expenditure on rents, utilities, new dwelling purchases and other expenditures on shelter-related goods and services. 
+For simplicity, the personal inflation calculator replaces new dwelling purchases with mortgage interest charges. ",Month,23.64,22.59,20.28,23.62,18.83,20.38,18.42,24.56,22.24
+115522,,Rents,,Month,6.59,5.42,6.1,5.54,3.85,5.58,5.65,6.3,5.75
+131186,,New dwelling purchase by owner-occupiers,,Month,9.29,8.68,7.94,8.57,7.89,6.76,4.84,8.81,8.62
+131187,,Other housing,Includes expenditure on state and local council property rates and charges (excluding water and sewerage); and materials and tradesmen services for minor maintenance and repair of dwellings. ,Month,3.83,3.84,3.4,3.65,3.92,4.2,4.21,4.11,3.79
+30016,,Utilities,"Includes expenditure on supply and usage charges for water and sewerage, electricity, and gas (including mains and bottled gas); and other household fuels such as firewood. ",Month,3.93,4.65,2.84,5.86,3.17,3.84,3.72,5.34,4.08
+20004,"Furnishings, household equipment and services",,"Incudes expenditure on all goods and services used in the operation and regular use of dwellings; plus personal goods and services, including those delivered outside the home.",Month,9.21,8.33,9.31,8.57,9.51,8.91,9.63,8.58,8.94
+131184,,Furniture and furnishings,,Month,1.84,1.79,1.83,1.97,1.99,1.75,2.19,1.79,1.86
+131182,,Household textiles,,Month,0.52,0.47,0.52,0.55,0.57,0.49,0.42,0.35,0.51
+97561,,"Household appliances, utensils and tools",,Month,1.64,1.45,1.48,1.42,1.77,1.96,2.07,1.41,1.56
+97563,,Non-durable household products,"Includes expenditure on cleaning and personal care products, and other non-durable household products such as toilet paper and garden supplies. ",Month,2.3,2.34,2.51,2.65,2.8,2.76,2.55,2.26,2.43
+97565,,Domestic and household services,"Incudes expenditure on child care, hairdressing and personal grooming services, and other household services such as gardeners and pest extermination. ",Month,2.91,2.28,2.97,1.98,2.38,1.95,2.4,2.77,2.58
+115486,Health,,Includes expenditure relating to health goods and services.,Month,6.31,5.7,6.18,6.57,7.4,6.7,5.31,6.13,6.25
+131188,,"Medical products, appliances and equipment","Includes expenditure on general or specialist practitioner consultations, hospital charges, and medical insurance. ",Month,1.1,1.2,1.25,1.35,1.37,1.24,1.32,1.12,1.2
+131189,,"Medical, dental and hospital services",,Month,5.21,4.5,4.93,5.22,6.03,5.46,3.99,5.01,5.05
+20005,Transport,,Includes expenses related to owning and operating private motor vehicles and travel by public transport within the capital cities. It does not cover public transport used for intercity travel.,Month,10.47,11.12,11.66,10.11,11.64,11.96,11.28,11.56,10.99
+30024,,Private motoring,"Includes expenditure on motor vehicles purchases (including stamp duty fees), motor vehicle registration, spare parts and accessories, automotive fuel, maintenance and repair of motor vehicles, and other fees such as drivers license fees.  ",Month,9.98,10.78,11.38,9.9,11.42,11.71,11.17,11.37,10.64
+30025,,Urban transport fares,,Month,0.49,0.34,0.28,0.21,0.22,0.25,0.11,0.19,0.35
+115488,Communication,,"Includes expenditure on postal services, and telecommunication equipment and services such as mobile phone purchases and internet and broadband services. ",Month,2.21,2.33,2.43,2.35,2.39,2.26,2.68,2.24,2.31
+30022,,Communication,,Month,2.21,2.33,2.43,2.35,2.39,2.26,2.68,2.24,2.31
+115489,Recreation and culture,,"Incudes expenditure on recreational products, sporting and recreational activities and holiday travel and accommodation is in the Recreation and culture group.",Month,10.16,10.66,11.72,11.14,11.7,12,11.58,11.18,10.84
+131193,,"Audio, visual and computing equipment and services",,Month,1.85,1.92,1.99,2.09,2.05,2.28,2.4,2.1,1.95
+131191,,"Newspapers, books and stationery",,Month,0.5,0.52,0.53,0.56,0.62,0.82,0.46,0.59,0.53
+30033,,Holiday travel and accommodation,,Month,4.28,4.25,4.32,4.25,4.3,4.3,4.29,4.32,4.28
+115492,,"Other recreation, sport and culture","Incudes expenditure on sports equipment, games, toys, hobbies, pet products, veterinary services, sports participation and admission fees. ",Month,3.53,3.97,4.88,4.24,4.73,4.6,4.43,4.17,4.08
+115493,Education,,"Includes expenditure on primary, secondary and tertiary education and preschool services. Child care is included in ‘Domestic and household services’.",Month,4.34,4.81,4.45,3.72,4.45,3.28,3.02,4.08,4.43
+40106,,Education,,Month,4.34,4.81,4.45,3.72,4.45,3.28,3.02,4.08,4.43
+126670,Insurance and financial services,,"Includes expenditure on actual charges for financial services of banks and other institutions such as transaction fees; and fees charged by stockbrokers, real estate agents, accountants, legal practitioners, and taxes on transfers for real estate.",Month,5.86,5.94,4.84,4.81,5.54,3.91,5.12,4.59,5.56
+115528,,Insurance,"Includes expenditure on comprehensive motor vehicle insurance, compulsory third party motor vehicle insurance, and house and contents insurance. ",Month,1.06,1.08,1.28,1.27,1.4,1.42,1.45,0.98,1.16
+131195,,Financial services,,Month,4.8,4.86,3.56,3.54,4.14,2.49,3.67,3.61,4.4
+131278,Mortgage interest charges,,*Not included in CPI rate. Annual expense,Annual,1,1,1,1,1,1,1,1,1
+10001,All groups CPI,,,Month,100,100,100,100,100,100,100,100,100

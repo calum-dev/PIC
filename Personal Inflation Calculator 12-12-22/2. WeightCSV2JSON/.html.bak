@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href=".css" />
+	</head>
+	<body>
+		<label for="jsonInput" class="json-input">
+			<input id="input" type="file" accept=".json,.geojson" />
+			<span id="inputMessage">Choose file</span>	
+		</label>
+		<script src=".js"></script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: inherit;
+}
+
+body {
+	width: 100vw;
+	max-width: 100vw;
+	height: 100vh;
+	max-height: 100vh;
+	background-color: #262626;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #f4f4f4;
+}
+
+.json-input {
+	position: relative;
+	width: 992px;
+	height: 496px;
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.05);
+	border: dashed 4px gray;
+}
+.json-input > input {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.json-input > span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+	font-size: 32px;
+}
+

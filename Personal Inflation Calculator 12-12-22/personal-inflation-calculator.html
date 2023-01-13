@@ -179,20 +179,21 @@
 								</div>
 								<div id="page-content">
 									<div class="field field--name-field-abs-flat-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+										<!--Intro-->
 										<div class="field__item hidden">
 											<div class="abs-text-paragraph abs-layout abs-layout-content">
 												<div class="abs-content clearfix text-formatted field field--name-field-abs-text-paragraph-content field--type-text-long field--label-hidden">
-													<p>Have you ever wondered how your experience of inflation differs from the average Australian household? The Australian Bureau of Statistics is pleased to present an interactive tool that allows you to explore your personal rate of inflation, based on the goods and services you consume. Your unofficial personal inflation rate is expressed as an index of 12-month percentage change.</p>
-													<p>The <a href=https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release>Consumer Price Index</a> (CPI) is the official measure of inflation in Australia. It is representative of the change in prices experienced by the average Australian household. However, your personal experience of inflation may not perfectly match the Australian average due to differences in your spending habits. The Personal Inflation Calculator accounts for those differences and provides a measure of inflation unique to you.</p>
+													<p>The <a href=https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release>Consumer Price Index</a>  (CPI) is the official measure of inflation in Australia. Each quarter, the CPI measures the change in the cost of a basket of goods and services. The CPI basket represents average expenditure for Australian households. However, your personal experience of inflation may be different due to differences in your spending habits. The Australian Bureau of Statistics (ABS) has developed a Personal Inflation Calculator which allows you to measure your own unique experience of inflation based on the goods and services you consume.</p>
 												</div>
 											</div>
 											<div class="abs-callout-paragraph abs-layout abs-layout-content">
 												<h3 class="field field--name-field-abs-title field--type-string field--label-hidden">Disclaimer</h3>
 												<div class="clearfix text-formatted field field--name-field-abs-text-paragraph-content field--type-text-long field--label-hidden">
-													<p>The personal inflation rate is provided for informational purposes only and should not be used as a substitute for the <a href=https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release>official CPI inflation rate</a>. It is meant as a guide that will help you understand your unique experience of inflation, and is not an official statistic.</p>
+													<p>The personal inflation rate based on the inflation calculator is provided as a guide to help you understand your unique experience of inflation, and should not be used as a substitute for the <a href=https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release>official CPI inflation rate</a>. </p>
 												</div>
 											</div>
 										</div>
+										<!--entry table-->
 										<div class="field__item hidden">
 											<h2>Select your city</h2>
 											<div class="controls">
@@ -210,7 +211,7 @@
 															<th></td>
 															<th>Group</th>
 															<th class="text-align-right">Latest annual movement (%)</th>
-															<th>Your average monthly consumption ($)</th>
+															<th>Your average consumption ($)</th>
 															<th>Your consumption basket</th>
 														</tr>
 													</thead>
@@ -257,6 +258,7 @@
 												</table>
 											</div>
 										</div>
+										<!--indicators-->
 										<div class="grid hidden">
 											<div class="field__item indicator">
 												<h3>Personal inflation rate</h3>
@@ -273,6 +275,7 @@
 												</div>
 											</div>
 										</div>
+										<!--graph and table-->
 										<div class="field__item hidden">
 											<div class="paragraph paragraph--type--abs-chart-table paragraph--view-mode--full abs-chart-table">
 											  <!--noindex-->
@@ -304,41 +307,28 @@
 											  </div>
 											</div>
 										</div>
-										<div class="field__item hidden" style="margin-bottom: 0;">
-											<div class="abs-collapsible-paragraph abs-layout abs-layout-content abs-layout-collapsible collapsible-closed" data-once="absCollapsibleToggle">
-												<div class="abs-content-title">
-													<h3 class="abs-subsection-title field field--name-field-abs-title field--type-string field--label-hidden" tabindex="0" role="button" aria-controls="collapsible-0" aria-expanded="false">Additional information</h3>
-												</div>
-												<div class="abs-content" aria-hidden="true" style="display: none;">
-													<div class="abs-subsection-content field field--name-field-abs-collapsible-content field--type-entity-reference-revisions field--label-hidden field__items">
-														<div class="field_item">
-															<div class="abs-text-paragraph abs-layout abs-layout-content">
-																<h3 class="abs-content-title field field--name-field-abs-title field--type-string field--label-hidden">Methods</h3>
-																<div class="abs-content clearfix text-formatted field field--name-field-abs-text-paragraph-content field--type-text-long field--label-hidden">
-																	<p>The official inflation rate is the average change in prices over the past year, as measured using the 12-month % change in the overall Consumer Price Index (CPI) for Australia.</p>
-																	<p>The personal inflation rate is calculated in the same way but is adjusted to reflect your particular spending habits. It has been necessarily simplified to make it practical. Some limitations of this tool compared to the official CPI include:</p>
-																	<ul>
-																		<li>Some spending categories have been combined to simplify the entry of household expense data.</li>
-																		<li>Only published data available to the public are used.</li>
-																		<li>The personal index calculation is similar to that of the CPI in that it uses a Lowe index. However, the methodology for the application of the weights (the user's personal expenditures) differs in that it results in an historical trend based on the user's current spending pattern; whereas the CPI trend, in simplified terms, is calculated using weights from an historical reference period.</li>
-																		<li>The Personal Inflation Calculator covers approximately 94% of the official CPI basket. Some spending categories have been excluded in order to strike a balance between basket coverage and usability. For example, ...</li>
-																	</ul>
-																</div>
-															</div>
-														</div>
-														<div class="field_item">
-															<div class="abs-text-paragraph abs-layout abs-layout-content">
-																<h3 class="abs-content-title field field--name-field-abs-title field--type-string field--label-hidden">Notes on calculation</h3>
-																<div class="abs-content clearfix text-formatted field field--name-field-abs-text-paragraph-content field--type-text-long field--label-hidden">
-																	<p>Every expenditure category with a value is used to calculate a share of your overall spending. These shares are used as your unique basket weights in the calculation of your personal inflation rate. If you leave a category blank, it is not included in your basket of goods and services, so be sure to enter values into all the categories relevant to you. The weights derived from your expenditure shares are then combined with chained price movements from the official CPI to calculate your personal inflation rate.</p>
-																	<p>As an example, if Australian households spent, on average, 4.5% of their overall expenses on fuel, it makes up 4.5% of the overall CPI basket of goods and services. If you did not drive, you will not have spent anything on fuel. Your basket of goods and services will therefore exclude fuel entirely. Alternatively, you may have spent more (or less) than the average of 4.5% of your overall expenses on fuel. The calculator takes this into account and as a result, your personal inflation rate will be different from the official rate.</p>
-																</div>
-															</div>
-														</div>
-													</div>
+										<!--text info-->
+										<div class="field__item hidden">
+											<div class="abs-text-paragraph abs-layout abs-layout-content">
+												<h3 class="field field--name-field-abs-title field--type-string field--label-hidden">Explanation</h3>
+												<div class="abs-content clearfix text-formatted field field--name-field-abs-text-paragraph-content field--type-text-long field--label-hidden">
+													<p>The official CPI inflation rate measures the average change in prices over the past year. The personal inflation rate is also calculated in this way but adjusted to reflect your individual spending habits. The calculator also allows you to enter monthly and annual expenses as you may only spend on an expenditure category once a year (for example, property rates). You can also enter expenses for individual capital cities or for the weighted average of the capital cities.</p>
+													<p>Each expenditure category represents a share of your overall spending. These expenditure shares are used as ‘weights’ in your basket of goods and services when calculating your personal inflation rate. If a category is blank, it won’t be included in your basket of goods and services. For example, the average amount spent by Australian households is 5.8% of their overall expenses on Rents. If you don’t rent, you won’t have any expenditure on rents and your basket of goods and services will exclude rents. If you spent more or less than 5.8% of your overall expenses on Rents, the calculator will take this into account and produce a different personal inflation rate.</p>
+													<p>The weights derived from your expenditure shares are then combined with the annual price movements from the official CPI to calculate your personal inflation rate.</p>
+												</div>	
+												<h3 class="field field--name-field-abs-title field--type-string field--label-hidden">Additional notes</h3>
+												<div class="abs-content clearfix text-formatted field field--name-field-abs-text-paragraph-content field--type-text-long field--label-hiddent">
+													<p>The personal inflation calculator has been simplified for practical purposes.</p>
+													<ul>
+														<li>The Housing group in the official CPI includes the purchase of new dwellings by owner occupiers (excluding land). However, for simplicity, the Housing group in the personal inflation calculator has been modified to include mortgage interest charges instead of new dwelling purchases.</li>
+														<li>The time series chart applies your current personal expenditure patterns to the last 5 years. However, the CPI is calculated using weights from a historical reference period. The CPI weights are updated periodically, currently every 12 months.</li>
+														<li>Some expenditure categories have been combined to simplify the entry of your household expenses.</li>
+														<li>Only published data available to the public are used in the calculations.</li>
+													</ul>
 												</div>
 											</div>
 										</div>
+										<!--loading animation-->
                                         <div class="field__item" style="margin-bottom: 0;">
                                             <div id="page_loader" class="loading" show></div>
                                         </div>
